@@ -27,13 +27,3 @@ disableThemeToggle = false
 [params.homeInfoParams]
 Title = "EdgeNotes"
 Content = "Thoughts, notes, and experiments"
-
-[[menu.main]]
-name = "Posts"
-url = "/posts/"
-weight = 10
-
-[[menu.main]]
-name = "About"
-url = "/about/"
-weight = 20
