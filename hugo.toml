@@ -1,5 +1,5 @@
 baseURL = 'https://awe-chute.github.io/'
-locale = 'en-us'
+languageCode = 'en-us'
 title = 'EdgeNotes'
 theme = 'PaperMod'
 
@@ -7,6 +7,23 @@ theme = 'PaperMod'
 pagerSize = 5
 
 [params]
+
+# ---- Core UI features ----
 ShowReadingTime = true
 ShowShareButtons = false
 ShowCodeCopyButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowToc = true
+
+# ---- THIS is what you're missing for homepage behavior ----
+mainSections = ["posts"]
+
+# ---- Optional but common PaperMod defaults ----
+defaultTheme = "auto"
+disableThemeToggle = false
+
+# ---- Optional homepage intro (can be removed if you don't want it) ----
+[params.homeInfoParams]
+Title = "EdgeNotes"
+Content = "Thoughts, notes, and experiments"
