@@ -1,0 +1,12 @@
+baseURL = 'https://awe-chute.github.io/'
+locale = 'en-us'
+title = 'EdgeNotes'
+theme = 'PaperMod'
+
+[pagination]
+pagerSize = 5
+
+[params]
+ShowReadingTime = true
+ShowShareButtons = false
+ShowCodeCopyButtons = true
